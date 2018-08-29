@@ -20,3 +20,12 @@ a.navbar-item:hover {
 #mobile-menu {
     display: none;
 }
+
+.custom-hero-background {
+    background-image: url('wire.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
