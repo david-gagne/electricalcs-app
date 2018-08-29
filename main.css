@@ -1,0 +1,22 @@
+a.navbar-item:hover {
+    background-color: inherit;
+}
+
+.is-menu-modal {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+}
+
+.menu ul li {
+    margin-bottom: 30px;
+}
+
+.custom-button-width {
+    width: 60vw;
+    max-width: 200px;
+}
+
+#mobile-menu {
+    display: none;
+}
