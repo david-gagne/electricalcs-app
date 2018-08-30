@@ -57,10 +57,15 @@ input[type="radio"] {
 }
 
 .footer {
-    margin-top: 34vh;
     position: relative;
     left: 0;
     bottom: 0;
+    height: 30vh;
+}
+
+.footer .content {
+    position: relative;
+    top: 40px;
 }
 
 .margin-bottom-li {
