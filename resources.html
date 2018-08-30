@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online Quizzes for Electricity Students - Apprenticity</title>
+    <title>Online Quizzes for Electricity Students - Apprentricity</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
@@ -13,46 +13,182 @@
 </head>
 
 <body>
-    <section class="hero has-background-dark is-fullheight custom-hero-background">
-        <!-- Hero head: will stick at the top -->
-        <div class="hero-head">
-            <header class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <a class="navbar-item has-text-white">
-                            Apprenticity
-                        </a>
-                    </div>
-                </div>
-            </header>
+    <nav class="navbar has-background-info" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item has-text-white" href="/chapters.html">
+                Apprentricity
+            </a>
+
+            <a id="mobile-menu-button" class="navbar-burger has-text-white">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
 
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body is-paddingless">
-            <div class="container has-text-centered">
-                <h1 class="title has-text-white is-2" style="position: relative; top: -10vh">
-                    Be a <em class="has-text-info">Great</em> Electrician's Apprentice
-                </h1>
-                <h2 class="subtitle has-text-white" style="position: relative; top: -8vh">
-                    Apprenticity is the <span class="has-text-info">simple</span> online quiz resource for electricity
-                    students.
-                </h2>
-
-                <a href="chapters.html" class="button custom-button-width is-info has-text-weight-semibold" style="height: 40px">
-                    Get Started
-                    <br>
-                    <i class="fas fa-bolt"></i>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a href="about.html" class="navbar-item has-text-white">
+                    About
+                </a>
+                <a href="instructions.html" class="navbar-item has-text-white">
+                    Instructions
+                </a>
+                <a href="resources.html" class="navbar-item has-text-white">
+                    Resources
                 </a>
             </div>
         </div>
+    </nav>
 
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-weight-semibold" style="margin-bottom: 50px">Resources
+            </h1>
+            <h2 class="subtitle has-text-weight-normal">
+                These resources are the foundation of Apprentricity. They are a sample of the educational material I
+                use(d)
+                as an electricity student at Atlantic Technical College in Coral Springs, Florida.
+            </h2>
+            <h2 class="subtitle has-text-weight-normal">
+                If you're a student at ATC in the electricity program, you're in the right place. And, if you're not,
+                all is not lost.
+                The content in the quizzes is clearly referenced and the books they're based on are common in the trade
+                for apprentice
+                education.
+            </h2>
         </div>
     </section>
 
+    <section class="section">
+        <div class="container has-text-centered">
+            <div class="columns">
+                <div class="column has-text-left">
+                    <h3 class="subtitle has-text-weight-semibold">Books & Manuals</h3>
+                    <ul>
+                        <li class="margin-bottom-li" id="textbook">
+                            <p>
+                                <span class="has-text-info has-text-weight-semibold">Textbook</span>
+                                <br>
+                                <em>Electrical Wiring - Residential (19th Edition)</em>
+                                <br>
+                                by Ray C. Mullin & Phill Simmons
+                            </p>
+                        </li>
+                        <li class="margin-bottom-li" id="codebook">
+                            <p>
+                                <span class="has-text-info has-text-weight-semibold">Code Book</span>
+                                <br>
+                                <em>NFPA 70 - National Electrical Code, International Code&reg; Series</em>
+                                <br>
+                                by National Fire Protection Association (NFPA)
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column has-text-left">
+                    <h3 class="subtitle has-text-weight-semibold">Video Links</h3>
+                    <ul>
+                        <li class="margin-bottom-li" id="textbook">
+                            <p>
+                                <span class="has-text-info has-text-weight-semibold">Textbook</span>
+                                <br>
+                                <em>Electrical Wiring - Residential (19th Edition)</em>
+                                <br>
+                                by Ray C. Mullin & Phill Simmons
+                            </p>
+                        </li>
+                        <li class="margin-bottom-li" id="codebook">
+                            <p>
+                                <span class="has-text-info has-text-weight-semibold">Code Book</span>
+                                <br>
+                                <em>NFPA 70 - National Electrical Code, International Code&reg; Series</em>
+                                <br>
+                                by National Fire Protection Association (NFPA)
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" style="padding-top: 0">
+        <div class="container">
+            <h3 class="subtitle has-text-weight-semibold">Glossary Reference</h3>
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button">
+                        <span>Select Chapter</span>
+                        <span class="icon is-small">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-item">
+                            Chapter 1
+                        </a>
+                        <a class="dropdown-item">
+                            Chapter 2
+                        </a>
+                        <a href="#" class="dropdown-item is-active">
+                            Chapter 3
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            Chapter 4
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            Chapter 5
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Apprentricity</strong> by <a href="https://twitter.com/buildpax">David Gagne</a>. The source
+                code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. <br> The website content is licensed
+                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC
+                        BY-NC-SA 4.0</a> <br><br>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Contextually Hidden UI Elements -->
+    <div id="mobile-menu" class="container is-pulled-right has-background-dark is-menu-modal has-text-centered">
+        <div class="menu" style="position: relative; top: 10vh">
+            <p class="menu-label">
+                <br> <!-- Spacer for Presentation -->
+                Apprentricity Logo
+                <br> <!-- Spacer for Presentation -->
+                <br> <!-- Spacer for Presentation -->
+            </p>
+            <ul>
+                <li><a href="about.html" class="has-text-white has-text-weight-semibold">About</a></li>
+                <li><a href="instructions.html" class="has-text-white has-text-weight-semibold">Instructions</a></li>
+                <li><a href="resources.html" class="has-text-white has-text-weight-semibold">Resources</a></li>
+                <br> <!-- Spacer for Presentation -->
+                <br> <!-- Spacer for Presentation -->
+                <p class="has-text-white">
+                    Got an idea for a new feature?
+                </p>
+                <br> <!-- Spacer for Presentation -->
+                <li>
+                    <a class="button is-info custom-button-width has-text-weight-semibold custom-button-width">Submit
+                        Idea</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <!-- Scripts -->
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 </body>
 
 </html>

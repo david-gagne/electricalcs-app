@@ -20,6 +20,22 @@ window.onload = function () {
             document.querySelector('html').style.overflow = 'visible';
         }
     });
+
+    // Dropdown menu
+    let dropdownTriggerButton = document.querySelector('.dropdown-trigger button');
+    let dropdown = document.querySelector('.dropdown');
+    
+
+    // attach listener to dropdown menu
+    dropdownTriggerButton.addEventListener('click', function () {
+        if (!dropdown.classList.contains('is-active')) {
+            dropdown.classList.add('is-active');
+        } else {
+            dropdown.classList.remove('is-active');
+        }
+    });
+
+
 }
 
 // TO-D0s: 
