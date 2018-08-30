@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 a.navbar-item:hover {
     background-color: inherit;
 }
@@ -28,19 +32,32 @@ a.navbar-item:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: multiply;
+    background-blend-mode: soft-light;
 }
 
 input[type="radio"] {
     position: relative;
-    top: -2px;
+    top: -4px;
 }
 
-label.radio {
-    display: block;
+.block-fields {
+    display: block !important;
+}
+
+.custom-control {
+    margin-bottom: 30px !important;
 }
 
 .radio + .radio {
     margin: 0;
-    margin-bottom: 1.5rem;
+}
+
+.main-section {
+    min-height: 100vh;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
 }

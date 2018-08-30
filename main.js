@@ -12,11 +12,15 @@ window.onload = function () {
             // if menu is not active and icon is not cross, then make them so...
             mobileMenuButton.classList.add('is-active');
             mobileMenu.style.display = 'block';
+            // and make it so that the user cannot scroll off the modal...
+            document.querySelector('html').style.overflow = 'hidden';
         } else if (mobileMenuButton.classList.contains('is-active')) {
             mobileMenuButton.classList.remove('is-active');
             mobileMenu.style.display = 'none';
+            document.querySelector('html').style.overflow = 'visible';
         }
     });
 }
 
-// TO-D0: Fix the nuanced "bug" of width displaying with the mobile menu.
+// TO-D0s: 
+// - Fix the nuanced "bug" of width displaying with the mobile menu.

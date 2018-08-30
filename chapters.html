@@ -51,30 +51,30 @@
         </div>
     </section>
 
-    <section class="section" style="padding-top: 20px">
+    <section class="section main-section" style="padding-top: 20px">
         <div class="container">
-            <div class="field is-grouped">
-                <div class="control">
-                    <label class="radio subtitle">
-                        <input type="radio" name="chapter1">
-                        <span class="has-text-weight-semibold">Chapter 1:</span>
-                        General Information for Electrical Installations
-                    </label>
-                    <label class="radio subtitle">
-                        <input type="radio" name="chapter2">
-                        <span class="has-text-weight-semibold">Chapter 2:</span>
-                        Specifications, Electrical Symbols, and Outlets
-                    </label>
-                    <label class="radio subtitle" disabled>
-                        <input type="radio" name="chapter3" disabled>
-                        <span class="has-text-weight-semibold">Chapter 3:</span> Coming Soon!
-                    </label>
-                    <input type="submit" value="Start Quiz" class="button is-success has-text-weight-semibold" style="height: 40px; position: relative; top: 40px; width: 150px">
+            <form action="#">
+                <div class="field is-grouped block-fields">
+                    <div class="control custom-control">
+                        <label class="radio subtitle is-marginless is-3 has-text-weight-bold">
+                            <input type="radio" name="answer">
+                            Chapter 1
+                        </label>
+                        <p class="help is-size-7 has-text-weight-semibold is-italic">General Information for Electrical Installations</p>
+                    </div>
+                    
+                    <div class="control custom-control">
+                        <label class="radio subtitle is-marginless is-3 has-text-weight-semibold">
+                            <input type="radio" name="answer">
+                            Chapter 2
+                        </label>
+                        <p class="help is-size-7 has-text-weight-semibold is-italic">Specifications, Electrical Symbols, and Outlets</p>
+                    </div>
                 </div>
-            </div>
-    </section>
-    <section class="section">
-        <!-- used as spacer -->
+
+                <input class="button is-success" type="submit" value="Start Quiz" style="width: 120px; position: relative; top: 50px;">
+            </form>
+        </div>
     </section>
     <footer class="footer">
         <div class="content has-text-centered" style="position: relative; top: 30px">

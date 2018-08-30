@@ -13,46 +13,112 @@
 </head>
 
 <body>
-    <section class="hero has-background-dark is-fullheight custom-hero-background">
-        <!-- Hero head: will stick at the top -->
-        <div class="hero-head">
-            <header class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <a class="navbar-item has-text-white">
-                            Apprentricity
-                        </a>
-                    </div>
-                </div>
-            </header>
+    <nav class="navbar has-background-info" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item has-text-white" href="/chapters.html">
+                Apprentricity
+            </a>
+
+            <a id="mobile-menu-button" class="navbar-burger has-text-white">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
 
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body is-paddingless">
-            <div class="container has-text-centered">
-                <h1 class="title has-text-white is-2" style="position: relative; top: -10vh">
-                    Be a <em class="has-text-info">Great</em> Electrician's Apprentice
-                </h1>
-                <h2 class="subtitle has-text-white" style="position: relative; top: -8vh">
-                    Apprentricity is the <span class="has-text-info">simple</span> online quiz resource for electricity
-                    students.
-                </h2>
-
-                <a href="chapters.html" class="button custom-button-width is-info has-text-weight-semibold" style="height: 40px">
-                    Get Started
-                    <br>
-                    <i class="fas fa-bolt"></i>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a href="about.html" class="navbar-item has-text-white">
+                    About
+                </a>
+                <a href="instructions.html" class="navbar-item has-text-white">
+                    Instructions
+                </a>
+                <a href="keywords.html" class="navbar-item has-text-white">
+                    Keywords
                 </a>
             </div>
         </div>
+    </nav>
 
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
+    <section class="section main-section">
+        <div class="container">
+            <h1 class="title" style="margin-bottom: 50px">About Apprentricity
+            </h1>
+            <h2 class="subtitle has-text-weight-normal">
+                <em>Down to <i class="fas fa-globe-americas has-text-info"></i> study tools for electricity students.</em>
+                <br>
+                <br>
+                If you're in school studying for a career as a professional electrician, you're probably filled with
+                anxiety (<em>*ahem*
+                </em>excitement). And if you're like me, then you're also juggling a personal life and a
+                job...car troubles? Jeez.
+                <br><br>
+                With all of these things in your life, I understand it can be challenging to find the time to study and
+                find the right information to help you during class time.
+                <br><br>
+                That's why I made Apprentricity.com. With this simple website I hope to help electricity students,
+                present and future, nail their understanding of
+                the foundational topics in this great trade.
+                <br><br>
+                Use the simple quizzes and informational resources here to reinforce your knowledge for class or as a
+                refresher while studying for your journeyman's exam.
+                This isn't meant to be the last resource you'll ever need, think of it more like another tool in your
+                toolbelt.
+                <br>
+                <br>
+                To your continued success,
+                <br>
+                <em>
+                    <br>
+                    David, Electricity Student <br> ATC  Coral Springs, FL. 2019
+                </em>
+            </h2>
         </div>
     </section>
 
+
+    <footer class="footer">
+        <div class="content has-text-centered" style="position: relative; top: 30px">
+            <p>
+                <strong>Apprentricity</strong> by <a href="https://twitter.com/buildpax">David Gagne</a>. The source
+                code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. <br> The website content is licensed
+                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC
+                        BY-NC-SA 4.0</a> <br><br>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Contextually Hidden UI Elements -->
+    <div id="mobile-menu" class="container is-pulled-right has-background-dark is-menu-modal has-text-centered">
+        <div class="menu" style="position: relative; top: 10vh">
+            <p class="menu-label">
+                <br> <!-- Spacer for Presentation -->
+                Apprentricity Logo
+                <br> <!-- Spacer for Presentation -->
+                <br> <!-- Spacer for Presentation -->
+            </p>
+            <ul>
+                <li><a href="about.html" class="has-text-white has-text-weight-semibold">About</a></li>
+                <li><a href="instructions.html" class="has-text-white has-text-weight-semibold">Instructions</a></li>
+                <li><a href="keywords.html" class="has-text-white has-text-weight-semibold">Keywords</a></li>
+                <br> <!-- Spacer for Presentation -->
+                <br> <!-- Spacer for Presentation -->
+                <p class="has-text-white">
+                    Got an idea for a new feature?
+                </p>
+                <br> <!-- Spacer for Presentation -->
+                <li>
+                    <a class="button is-info custom-button-width has-text-weight-semibold custom-button-width">Submit
+                        Idea</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <!-- Scripts -->
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 </body>
 
 </html>
