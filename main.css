@@ -53,10 +53,11 @@ input[type="radio"] {
 }
 
 .main-section {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .footer {
+    margin-top: 20vh;
     position: relative;
     left: 0;
     bottom: 0;
