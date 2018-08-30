@@ -1,5 +1,5 @@
 {
-  "name": "electricalcs-app",
+  "name": "apprentricity",
   "version": "1.0.0",
   "description": "A simple quiz website for students in electricity school.",
   "main": "app.js",
@@ -11,10 +11,11 @@
     "url": "git+https://github.com/david-gagne/electricalcs-app.git"
   },
   "author": "David Gagne (Buildpax)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/david-gagne/electricalcs-app/issues"
   },
   "homepage": "https://github.com/david-gagne/electricalcs-app#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {}
 }
