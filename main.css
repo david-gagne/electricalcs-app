@@ -8,7 +8,7 @@ a.navbar-item:hover {
 
 .is-menu-modal {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     padding: 10px;
     position: absolute;
     top: 52px;
