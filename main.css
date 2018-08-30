@@ -6,6 +6,8 @@ a.navbar-item:hover {
     width: 100vw;
     height: 100vh;
     padding: 10px;
+    position: absolute;
+    top: 52px;
 }
 
 .menu ul li {
@@ -29,3 +31,16 @@ a.navbar-item:hover {
     background-blend-mode: multiply;
 }
 
+input[type="radio"] {
+    position: relative;
+    top: -2px;
+}
+
+label.radio {
+    display: block;
+}
+
+.radio + .radio {
+    margin: 0;
+    margin-bottom: 1.5rem;
+}

@@ -8,14 +8,15 @@ window.onload = function () {
     // attach listener to mobile menu button (burger)
     mobileMenuButton.addEventListener('click', function () {
         // check if the menu modal is actie and burger icon is cross (x) 
-        if (!mobileMenuButton.classList.contains('is-active') && mobileMenu.style.display !== 'block') {
+        if (!mobileMenuButton.classList.contains('is-active')) {
             // if menu is not active and icon is not cross, then make them so...
             mobileMenuButton.classList.add('is-active');
             mobileMenu.style.display = 'block';
-        } else {
-            // otherwise, set the classes to hide the element and change burger icon to three lines
+        } else if (mobileMenuButton.classList.contains('is-active')) {
             mobileMenuButton.classList.remove('is-active');
             mobileMenu.style.display = 'none';
         }
     });
 }
+
+// TO-D0: Fix the nuanced "bug" of width displaying with the mobile menu.

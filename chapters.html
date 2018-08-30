@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Online Quizzes for Electricity Students - Apprentricity</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
@@ -15,8 +15,8 @@
 <body>
     <nav class="navbar has-background-info" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item has-text-white" href="#">
-                ElectricalCs
+            <a class="navbar-item has-text-white" href="/chapters.html">
+                Apprentricity
             </a>
 
             <a id="mobile-menu-button" class="navbar-burger has-text-white">
@@ -28,31 +28,81 @@
 
         <div class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item has-text-white">
+                <a href="about.html" class="navbar-item has-text-white">
                     About
                 </a>
-                <a class="navbar-item has-text-white">
+                <a href="instructions.html" class="navbar-item has-text-white">
                     Instructions
                 </a>
-                <a class="navbar-item has-text-white">
+                <a href="keywords.html" class="navbar-item has-text-white">
                     Keywords
                 </a>
             </div>
         </div>
     </nav>
 
+    <section class="section">
+        <div class="container">
+            <h1 class="title" style="margin-bottom: 50px">Choose chapters</h1>
+            <h2 class="subtitle">
+                Pick a chapter from the <a href="#">textbook</a> for your quiz.
+            </h2>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="field is-grouped">
+                <div class="control">
+                    <label class="radio subtitle">
+                        <input type="radio" name="chapter1">
+                        <span class="has-text-weight-semibold">Chapter 1:</span>
+                        General Information for Electrical Installations
+                    </label>
+                    <label class="radio subtitle">
+                        <input type="radio" name="chapter2">
+                        <span class="has-text-weight-semibold">Chapter 2:</span>
+                        Specifications, Electrical Symbols, and Outlets
+                    </label>
+                    <label class="radio subtitle" disabled>
+                        <input type="radio" name="chapter3" disabled>
+                        <span class="has-text-weight-semibold">Chapter 3:</span> Coming Soon!
+                    </label>
+                    <input type="submit" value="Start Quiz" class="button is-success has-text-weight-semibold" style="height: 40px; position: relative; top: 40px; width: 150px">
+                </div>
+            </div>
+    </section>
+    <section class="section">
+        <!-- used as spacer -->
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Apprentricity</strong> by <a href="https://twitter.com/buildpax">David Gagne</a>. The source
+                code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
+                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+                        Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> <br><br>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+                    </a>
+            </p>
+        </div>
+    </footer>
+
     <!-- Contextually Hidden UI Elements -->
     <div id="mobile-menu" class="container is-pulled-right has-background-dark is-menu-modal has-text-centered">
-        <div class="menu">
+        <div class="menu" style="position: relative; top: 10vh">
             <p class="menu-label">
                 <br> <!-- Spacer for Presentation -->
+                Apprentricity Logo
                 <br> <!-- Spacer for Presentation -->
                 <br> <!-- Spacer for Presentation -->
             </p>
             <ul>
-                <li><a href="#" class="has-text-white has-text-weight-semibold">About</a></li>
-                <li><a href="#" class="has-text-white has-text-weight-semibold">Instructions</a></li>
-                <li><a href="#" class="has-text-white has-text-weight-semibold">Keywords</a></li>
+                <li><a href="about.html" class="has-text-white has-text-weight-semibold">About</a></li>
+                <li><a href="instructions.html" class="has-text-white has-text-weight-semibold">Instructions</a></li>
+                <li><a href="keywords.html" class="has-text-white has-text-weight-semibold">Keywords</a></li>
                 <br> <!-- Spacer for Presentation -->
                 <br> <!-- Spacer for Presentation -->
                 <p class="has-text-white">
@@ -60,7 +110,8 @@
                 </p>
                 <br> <!-- Spacer for Presentation -->
                 <li>
-                    <a class="button is-info custom-button-width has-text-weight-semibold custom-button-width">Submit Idea</a>
+                    <a class="button is-info custom-button-width has-text-weight-semibold custom-button-width">Submit
+                        Idea</a>
                 </li>
             </ul>
         </div>
