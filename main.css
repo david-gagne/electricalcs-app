@@ -24,7 +24,7 @@ a.navbar-item:hover {
 }
 
 .custom-hero-background {
-    background-image: url('wire.jpg');
+    background-image: url('https://grindfusion-cdn.sirv.com/Images/wire.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
