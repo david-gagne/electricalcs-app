@@ -61,11 +61,13 @@ input[type="radio"] {
     left: 0;
     bottom: 0;
     height: 30vh;
+    top: 30vh;
 }
 
 .footer .content {
     position: relative;
     top: 40px;
+
 }
 
 .margin-bottom-li {
