@@ -1,4 +1,12 @@
 window.onload = function () {
+    // landing page cta button 
+    let ctaButton = document.querySelector('.custom-button-width');
+
+    // remove button when clicked
+    ctaButton.addEventListener('click', function () {
+        ctaButton.style.display = 'none';
+    });
+
     // Burger menu activation
 
     // define mobile menu variables
@@ -24,7 +32,7 @@ window.onload = function () {
     // Dropdown menu
     let dropdownTriggerButton = document.querySelector('.dropdown-trigger button');
     let dropdown = document.querySelector('.dropdown');
-    
+
 
     // attach listener to dropdown menu
     dropdownTriggerButton.addEventListener('click', function () {
@@ -34,8 +42,6 @@ window.onload = function () {
             dropdown.classList.remove('is-active');
         }
     });
-
-
 }
 
 // TO-D0s: 
