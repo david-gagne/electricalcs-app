@@ -41,53 +41,40 @@
         </div>
     </nav>
 
-    <section class="section">
+    <section class="section" style="padding-bottom: 40px">
         <div class="container">
             <h1 class="title" style="margin-bottom: 50px">Choose chapters</h1>
             <h2 class="subtitle">
-                Pick one chapter from the <a href="resources.html#textbook">Textbook</a>, then hit the
-                <strong class="has-text-success">Start Quiz</strong> button below.
+                Select a chapter below to start your quiz. Use the <em class="has-text-grey">Choose a Study Mode</em> menu at the bottom of the quiz box to change
+                the study method.
             </h2>
         </div>
     </section>
 
     <section class="section">
         <div class="container">
-            <form action="#">
-                <div class="field is-grouped block-fields">
-                    <div class="control custom-control">
-                        <label class="radio subtitle is-marginless is-3 has-text-weight-bold">
-                            <input type="radio" name="answer">
-                            Chapter 1
-                        </label>
-                        <p class="help is-size-7 has-text-weight-semibold is-italic">General Information for Electrical Installations</p>
-                    </div>
-                    
-                    <div class="control custom-control">
-                        <label class="radio subtitle is-marginless is-3 has-text-weight-semibold">
-                            <input type="radio" name="answer">
-                            Chapter 2
-                        </label>
-                        <p class="help is-size-7 has-text-weight-semibold is-italic">Specifications, Electrical Symbols, and Outlets</p>
-                    </div>
-                </div>
-
-                <input class="button is-success has-text-weight-semibold" type="submit" value="Start Quiz" style="width: 120px; position: relative; top: 50px;">
-            </form>
+            <div class="tile">
+                <!-- Quizlet Embed -->
+                <a id="chapterOneButton" class="subtitle has-text-weight-semibold is-5 has-text-info">
+                    Chapter 1:
+                    <span class="has-text-weight-normal has-text-grey">General Information for Electrical Installations</span>
+                </a>
+                <iframe class="hide-quiz" id="chapterOne" src="https://quizlet.com/310699436/test/embed" height="500" width="100%" style="border:0"></iframe>
+            </div>
         </div>
     </section>
-    
+
     <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                    <strong>Apprentricity</strong> by <a href="https://twitter.com/buildpax">David Gagne</a>. The source
-                    code is licensed
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. <br> The website content is licensed
-                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC
-                            BY-NC-SA 4.0</a> <br><br>
-                </p>
-            </div>
-        </footer>
+        <div class="content has-text-centered">
+            <p>
+                <strong>Apprentricity</strong> by <a href="https://twitter.com/buildpax">David Gagne</a>. The source
+                code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. <br> The website content is licensed
+                <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC
+                        BY-NC-SA 4.0</a> <br><br>
+            </p>
+        </div>
+    </footer>
 
     <!-- Contextually Hidden UI Elements -->
     <div id="mobile-menu" class="container is-pulled-right has-background-dark is-menu-modal has-text-centered">

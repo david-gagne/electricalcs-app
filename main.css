@@ -73,3 +73,7 @@ input[type="radio"] {
 .margin-bottom-li {
     margin-bottom: 30px;
 }
+
+.hide-quiz {
+    display: none;
+}
