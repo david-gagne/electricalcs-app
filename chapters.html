@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700|Roboto+Mono:700|Roboto+Slab:300,400" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar has-background-info" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item has-text-white" href="/chapters.html">
+            <a class="navbar-item has-text-white is-logo-font" href="/chapters.html">
                 Apprentricity
             </a>
 
@@ -28,13 +29,13 @@
 
         <div class="navbar-menu">
             <div class="navbar-end">
-                <a href="about.html" class="navbar-item has-text-white">
+                <a href="about.html" class="navbar-item has-text-white has-text-weight-semibold">
                     About
                 </a>
-                <a href="instructions.html" class="navbar-item has-text-white">
+                <a href="instructions.html" class="navbar-item has-text-white has-text-weight-semibold">
                     Instructions
                 </a>
-                <a href="resources.html" class="navbar-item has-text-white">
+                <a href="resources.html" class="navbar-item has-text-white has-text-weight-semibold">
                     Resources
                 </a>
             </div>
@@ -58,11 +59,22 @@
                 <li class="chapter">
                     <!-- Quizlet Embed -->
                     <a class="subtitle has-text-weight-semibold is-5 has-text-info">
-                        Chapter 1: <span class="has-text-grey has-text-weight-">General Information for Electrical
+                        Chapter 1: <span class="has-text-grey has-text-weight-normal no-select">General Information for Electrical
                             Installations</span>
                     </a>
-                    <iframe class="chapter" src="https://quizlet.com/310699436/test/embed" height="500" width="100%"
+                    <iframe id="chapterOneQuiz" class="chapter hide-quiz" src="https://quizlet.com/310699436/test/embed" height="500" width="100%"
                         style="border:0"></iframe>
+                </li>
+                <li class="chapter">
+
+                    <p class="has-text-grey">Chapter 2: Coming soon!</p>
+
+                    <!-- Quizlet Embed -->
+                    <!-- <a class="subtitle has-text-weight-semibold is-5 has-text-info">
+                        Chapter 2: <span class="has-text-grey has-text-weight-normal no-select">Specifications, Electrical Symbols, and Outlets</span>
+                    </a>
+                    <iframe id="chapterTwoQuiz" class="chapter hide-quiz" src="chapter two embed link here" height="500" width="100%"
+                        style="border:0"></iframe> -->
                 </li>
             </ul>
         </div>

@@ -90,3 +90,21 @@ iframe {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.no-select {
+    pointer-events: none;
+}
+
+.is-logo-font {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -1px;
+}
+
+.is-title-font {
+    font-family: 'Roboto Slab', serif;
+}
+
+.is-subtitle-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
