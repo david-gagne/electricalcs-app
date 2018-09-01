@@ -77,3 +77,16 @@ input[type="radio"] {
 .hide-quiz {
     display: none;
 }
+
+iframe {
+    margin-top: 30px;
+}
+
+.tile {
+    margin-top: 30px;
+}
+
+.chapter {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

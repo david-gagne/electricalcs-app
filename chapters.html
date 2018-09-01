@@ -41,11 +41,12 @@
         </div>
     </nav>
 
-    <section class="section" style="padding-bottom: 40px">
+    <section class="section" style="padding-bottom: 0">
         <div class="container">
             <h1 class="title" style="margin-bottom: 50px">Choose chapters</h1>
             <h2 class="subtitle">
-                Select a chapter below to start your quiz. Use the <em class="has-text-grey">Choose a Study Mode</em> menu at the bottom of the quiz box to change
+                Select a chapter below to start your quiz. Use the <em class="has-text-grey">Choose a Study Mode</em>
+                menu at the bottom of the quiz box to change
                 the study method.
             </h2>
         </div>
@@ -53,14 +54,26 @@
 
     <section class="section">
         <div class="container">
-            <div class="tile">
-                <!-- Quizlet Embed -->
-                <a id="chapterOneButton" class="subtitle has-text-weight-semibold is-5 has-text-info">
-                    Chapter 1:
-                    <span class="has-text-weight-normal has-text-grey">General Information for Electrical Installations</span>
-                </a>
-                <iframe class="hide-quiz" id="chapterOne" src="https://quizlet.com/310699436/test/embed" height="500" width="100%" style="border:0"></iframe>
-            </div>
+            <ul id="chapterContainer">
+                <li class="chapter">
+                    <!-- Quizlet Embed -->
+                    <a class="subtitle has-text-weight-semibold is-5 has-text-info">
+                        Chapter 1: <span class="has-text-grey has-text-weight-">General Information for Electrical
+                            Installations</span>
+                    </a>
+                    <iframe class="chapter" src="https://quizlet.com/310699436/test/embed" height="500" width="100%"
+                        style="border:0"></iframe>
+                </li>
+                <li class="chapter">
+                    <!-- Quizlet Embed -->
+                    <a class="subtitle has-text-weight-semibold is-5 has-text-info">
+                        Chapter 1: <span class="has-text-grey has-text-weight-">General Information for Electrical
+                            Installations</span>
+                    </a>
+                    <iframe class="chapter" src="https://quizlet.com/310699436/test/embed" height="500" width="100%"
+                        style="border:0"></iframe>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -105,6 +118,8 @@
 
     <!-- Scripts -->
     <script src="main.js"></script>
+    <script src="mobileMenu.js"></script>
+    <script src="chapterSelector.js"></script>
 </body>
 
 </html>
