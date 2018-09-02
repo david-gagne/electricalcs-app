@@ -89,6 +89,7 @@ iframe {
 .chapter {
     margin-top: 30px;
     margin-bottom: 30px;
+    display: block;
 }
 
 .no-select {
