@@ -7,6 +7,7 @@ burgerMenu.addEventListener('click', function () {
     burgerMenu.classList.toggle('is-active');
     if (mobileMenu.style.display !== 'block') {
         mobileMenu.style.display = 'block';
+        
     } else {
         mobileMenu.style.display = 'none';
     }
