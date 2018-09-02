@@ -109,3 +109,7 @@ iframe {
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
 }
+
+.body-logo {
+    width: 3rem;
+}
