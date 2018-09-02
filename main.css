@@ -8,10 +8,11 @@ a.navbar-item:hover {
 
 .is-menu-modal {
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     padding: 10px;
-    position: absolute;
+    position: fixed;
     top: 52px;
+    z-index: 2;
 }
 
 .menu ul li {
