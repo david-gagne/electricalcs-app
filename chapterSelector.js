@@ -12,6 +12,10 @@ window.onload = function () {
                 document.getElementById('chapterTwoQuiz').classList.toggle('hide-quiz');
                 break;
 
+            case chapterContainer.children[4]:
+                document.getElementById('chapterThreeQuiz').classList.toggle('hide-quiz');
+                break;
+
             default:
                 console.log('nada clicked');
                 break;
